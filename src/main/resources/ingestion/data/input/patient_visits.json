@@ -1,0 +1,12 @@
+[
+  {"visit_id": 1, "patient_id": 1001, "visit_date": "2025-10-01", "department": "General", "cost": 150},
+  {"visit_id": 2, "patient_id": 1001, "visit_date": "2025-10-05", "department": "Cardiology", "cost": 400},
+  {"visit_id": 3, "patient_id": 1002, "visit_date": "2025-10-03", "department": "Dermatology", "cost": 200},
+  {"visit_id": 4, "patient_id": 1003, "visit_date": "2025-10-04", "department": "Orthopedics", "cost": 350},
+  {"visit_id": 5, "patient_id": 1004, "visit_date": "2025-10-02", "department": "General", "cost": 180},
+  {"visit_id": 6, "patient_id": 1005, "visit_date": "2025-10-03", "department": "Neurology", "cost": 600},
+  {"visit_id": 7, "patient_id": 1006, "visit_date": "2025-10-05", "department": "General", "cost": 220},
+  {"visit_id": 8, "patient_id": 1007, "visit_date": "2025-10-06", "department": "Cardiology", "cost": 410},
+  {"visit_id": 9, "patient_id": 1008, "visit_date": "2025-10-04", "department": "Pediatrics", "cost": 240},
+  {"visit_id": 10, "patient_id": 1009, "visit_date": "2025-10-07", "department": "General", "cost": 200}
+]
