@@ -30,7 +30,7 @@ object DataIngestionMain {
     createDeltaTableUsingSparkSQL(spark,patientDiagnosisDf)
 
     /** Read the ingested delta tables and display them */
-    spark.read.format("delta").load("src/main/resources/ingestion/data/output/patients/").show()
+    spark.read.format("delta").load("src/main/resources/ingestion/data/output/delta_tables/patients").show()
     spark.read.format("delta").table("patient_visits").show()
     spark.read.format("delta").table("patient_diagnosis").show()
 

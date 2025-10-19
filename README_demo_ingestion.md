@@ -50,9 +50,9 @@ data_engineering_e2e/
 ```
 
 ## Prerequisites
-- Java 11 (or Java 17)
+- Java 11+
 - Maven 3.8+
-- IntelliJ IDEA or similar IDE
+- IntelliJ IDEA or other IDE
 - Apache Spark 3.5.x
 - Delta Lake 3.3.0
 - Scala 2.13.x
@@ -60,7 +60,7 @@ data_engineering_e2e/
 ## Setup
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/shahul-bathusha/data-engineering-hands-on.git
 cd data_engineering_e2e
 ```
 2. Build the project:
@@ -71,7 +71,7 @@ mvn clean install
 
 ## Running the Demo
 ```bash
-$SPARK_HOME/bin/spark-submit   --class ingestion.DataIngestionMain  target/data_engineering_e2e-1.0-SNAPSHOT-jar-with-dependencies.jar
+$SPARK_HOME/bin/spark-submit   --class ingestion.DataIngestionMain  --packages io.delta:delta-spark_2.13:3.3.1 target/data_engineering_e2e-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
 
